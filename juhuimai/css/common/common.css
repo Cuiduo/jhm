@@ -1,0 +1,37 @@
+/*----------------------------------top----------------------------------------------------*/
+#top-big{width: 100%;height: 32px;background: #f2f2f2;border-bottom:1px solid #e5e5e5;}
+#top-big #top-in{width: 1220px;line-height: 32px;margin: 0 auto;padding-left: 20px}
+.weizhi{background: url(../images/weizhi.png) no-repeat left;}
+#top-big #top-in #city{color: #fff;background: #FF3300;padding: 3px 5px;}
+#top-big #top-in #qh{margin-left: 5px;}
+#top-big #top-in a{color:#999999;}
+#top-big #top-in a:hover{color:#f00;}
+#topl{width: 500px;float: left;position: relative;}
+#topl #city-box{border: 1px solid #ccc;width: 150px;padding: 10px;display: none;position:absolute;top:26px;left: 24px ;background:#fff;z-index: 10;}
+#topl #city-box .dqcs{border-bottom: 2px solid #cca;padding: 5px;}
+#topl #city-box ul li .ct{background: #ccc;padding: 1px 6px;border-radius: 10px;}
+#topl #city-box ul li a:hover{background: #FF3300;padding: 3px 5px;color: #fff}
+#topl #city-box a{color: #000}
+#topl #city-box .city-h{font-weight: bold;border-bottom: 2px solid #cca;padding: 5px;}
+#topl #welcome{padding-left: 30px;color:#999999;}
+#topl #dengru{padding: 0 5px;}
+#topr{width: 600px;float: right;}
+#topr #xinxi{position: relative;}
+#topr ul li #information{display:none;position: absolute;top:32px;left:-1px;width: 100px;background: #fff;z-index: 12;text-align: center;height: 70px;}
+#topr #shoucang{position: relative;}
+#topr ul li #shoucang-1{display:none;position: absolute;top:32px;left:-1px;width: 100px;background: #fff;z-index: 12;text-align: center;height: 70px;}
+#topr #phone{position: relative;}
+#topr ul li #phone-a{display:none;position: absolute;top:32px;left:-1px;width: 100px;background: #fff;z-index: 12;text-align: center;height: 70px;}
+#topr #shangjia{position: relative;}
+#topr #shangjia #shangjia-a h5{padding-left: 15px;}
+#topr #shangjia #shangjia-a{display:none;position: absolute;top:32px;left:-60px;width: 140px;background: #fff;z-index: 15;height: 120px;border-bottom: 1px dashed #000;padding-bottom: 10px;}
+#tor #daohang{position: relative;}
+#topr #daohang #daohang-a{display:none;position: absolute;top:32px;right: 150px;width: 1150px;background: #fff;z-index: 15;height: 120px;border-bottom: 1px dashed #000;padding-bottom: 10px;border: 1px solid #CCCCAA;}
+#topr #daohang #daohang-a .p1 a{padding:5px 5px ;}
+#topr #daohang #daohang-a .p1{float: left;padding-right: 50px;padding-left: 10px;}
+#topr #guanzhu a{color: #f00;}
+#topr #car a{color: #f00;}
+#topr ul li{padding: 0 16px;line-height: 32px;float: left;}
+#topr li:hover{background: #fff;}
+#topr #guanzhu:hover{background:#F2F2F2;cursor: pointer;border:none;}
+#topr #car:hover{background:#F2F2F2;border:none;}
