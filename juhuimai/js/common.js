@@ -1,4 +1,4 @@
-	function load(url, targetId) {
+;	function load(url, targetId) {
 		$.ajax({
 				url: url,
 				dataType: "html",
@@ -7,4 +7,4 @@
 					$("#"+targetId).html(msg);
 			}
 		})
-	}
+};

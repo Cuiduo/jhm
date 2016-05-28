@@ -35,7 +35,16 @@
 #banner-big #banner ul .bn7{background: url(../images/index/banner/banner6.png) 50% 50% no-repeat;}
 #banner-big #banner #easy{width: 1210px;height: 514px;margin: 0 auto;position: absolute;top:0;left: 0px;}
 #banner-big #easy #allgoods{width: 210px;height: 514px;background: rgba(255, 255, 255, 0.8)}
+
 #banner-big #easy #allgoods dl:hover{cursor: pointer;}
+#banner-big #easy #allgoods .goodfl{display: none; background: #fff;border: solid 1px #DE1838;box-shadow: 1px 1px 8px #dfdfdf; left: 208px;position: absolute;top: 0;width: 747px;height: 470px;z-index: 11;padding: 20px;}
+#banner-big #easy #allgoods .goodfl h3{line-height: 45px;border-bottom: 1px dashed #808080;}
+#banner-big #easy #allgoods .goodfl p a{display:inline-block;padding: 5px 20px;color: #000;}
+#banner-big #easy #allgoods .goodfl p a:hover{color: #FF4D4D;}
+#banner-big #easy #allgoods .goodfl2{display: none; background: #fff;border: solid 1px #DE1838;box-shadow: 1px 1px 8px #dfdfdf; left: 208px;position: absolute;top: 70px;width: 747px;height: 470px;z-index: 11;padding: 20px;}
+#banner-big #easy #allgoods .goodfl2 h3{line-height: 45px;border-bottom: 1px dashed #808080;}
+#banner-big #easy #allgoods .goodfl2 p a{display:inline-block;padding: 5px 20px;color: #000;}
+#banner-big #easy #allgoods .goodfl2 p a:hover{color: #FF4D4D;}
 #banner-big #easy #allgoods .feiji{line-height: 22px;padding-left: 42px;display: block;width: 146px;background:url(../images/banner/ico.png) no-repeat}
 #banner-big #easy #allgoods .feiji1{line-height: 22px;padding-left: 42px;display: block;width: 146px;background:url(../images/banner/ico.png) no-repeat left -25px}
 #banner-big #easy #allgoods .feiji2{line-height: 22px;padding-left: 42px;display: block;width: 146px;background:url(../images/banner/ico.png) no-repeat left -50px}
@@ -68,19 +77,22 @@
 #main{width: 100%;height: 380px;}
 #main{width: 1210px;height: 370px;margin: 0 auto ;}
 #main #titlebox{width: 1210px;height: 43px}
-#main #titlebox ul li{float: left;font-size: 16px;width: 90px;height: 43px;line-height: 43px;text-align: center; margin-right: 15px;cursor: pointer;font-family: "微软雅黑";}
-#main #titlebox ul li:hover{color: #FF0000;}
-#main #xiabiao{border-bottom: 2px solid #dd102e;width: 90px;position: relative;top: 0;}
-#main #xiabiao b{border-width: 10px;border-style: dashed dashed solid;border-color: transparent transparent #dd102e;display: inline-block; overflow: hidden; font-size: 0; height: 0;  width: 0;  margin-top: -8px;position: absolute;left: 30px;top: -10px;}
-#main #logobox{width:1180px;height: 290px;border: 1px solid #CCCCCC;padding:20px 0 0 20px;overflow: hidden;}
-#main #logobox ul li{width: 180px;height:80px;float: left;position: relative;   margin: 0 15px 15px 0;overflow: hidden;}
+#main #titlebox ul li{float: left;font-size: 16px;width: 90px;height: 43px;line-height: 43px;text-align: center; margin-right: 15px;cursor: pointer;font-family: "微软雅黑";border-bottom: 2px solid #fff ;}
+
+#main #titlebox ul li:hover{color: #FF0000;border-bottom: 2px solid #dd102e ;}
+.hide{display: none;}
+.show{display: block;}
+#main .logobox{width:1180px;height: 290px;border: 1px solid #CCCCCC;padding:20px 0 0 20px;overflow: hidden;}
+
+#main .logobox ul li{width: 180px;height:80px;float: left;position: relative;   margin: 0 15px 15px 0;overflow: hidden;}
+/*----------------------------------热门店铺-----------------------------------------------*/
 #hotStores{width: 100%;height: 360px;}
 #hotStores #hot{width: 1210px;height: 360px;margin: 0 auto;}
 #hotStores #hot .hota{background: url(../images/common/header/little.png) no-repeat;display: block;    margin: 15px 0 8px;height: 20px;line-height: 20px;font-size: 17px;font-weight: 700;color: #000;width: 192px;text-indent: -1000em;height: 25px;}
 #hotStores #hot .hotmore a{float: right;line-height: 30px;background: url(../images/index/jt.png) no-repeat right;padding-right: 10px;}
 #hotStores #hot #tabl{float: left;}
 #hotStores #hot #tabc{float: left;width: 780px;height: 326px}
-#hotStores #hot #tabc ul li{float: left;width: 128px;height: 86px;border:1px solid #ccc;text-align: center;padding-top: 20px;}
+#hotStores #hot #tabc ul li{float: left;width: 122px;height: 86px;border:1px solid #ccc;text-align: center;padding-top: 20px;position: relative;}
 #hotStores #hot #tabr{float: right;}
 /*-------------------fkqk-big-------------------------------------------*/
 #fkqg-big{width: 100%;height: 350px;}
@@ -94,8 +106,9 @@
 #fkqg-big #fkqg #fkqg-dl dl dt img{width: 180px;height: 180px;}
 #fkqg-big #fkqg #fkqg-dl dl dd{width: 180px;line-height: 30px;color: #000;padding: 0 10px;}
 #fkqg-big #fkqg #fkqg-dl dl dd span{color: #f00;}
+/*--------------------------------------楼梯----------------------------------------------*/
 #lou{width: 100%;}
-#lou #main{width: 1210px;margin: 0 auto;}
+#lou #main{width: 1210px;height:5680px;margin: 0 auto;}
 #lou #main .louti{width: 1210px;height: 710px;}
 #loutiNav{position: fixed;top: 35%;left: 40px;width: 40px;display: none;}
 #loutiNav ul li{position: relative;width: 40px;height: 30px;text-align: center;line-height: 30px;font-size: 12px;list-style: none;cursor: pointer;border-bottom: 1px dotted #AAAAAA;}
@@ -120,7 +133,7 @@
 #lou #main .louti .floor .floortab .goods .good dl{width: 180px;height:260px;padding: 10px;border: 1px solid #ccc;float: left;}
 #lou #main .louti .floor .floortab .goods .good img{width: 160px;}
 #lou #main .louti .floor .floortab .goods .good a{color: #000;}
-#lou #main .louti .floor .floortab .goods .good .youhui{color: orangered;}
+#lou #main .louti .floor .floortab .goods .good .youhui{color: orangered;font-size: 20px;}
 #lou #main .louti .floor .floortab .goods .good dd{position: relative;width: 160px;}
 #lou #main .louti .floor .floortab .goods .good .gwc{width:30px;height:30px;position: absolute;bottom: 0;right: 10px;background:url(../images/index/gouwuche.png)  no-repeat;}
 #lou #main .louti .floor .floor{padding-top: 38px;}
@@ -132,3 +145,4 @@
 #lou #main .louti .floorbt .spanl,.spanr{display: none;}
 #lou #main .louti .floorbt:hover .spanl{display:block;position: absolute;left: 0;background: rgba(255, 200, 255, 0.8);top:20%}
 #lou #main .louti .floorbt:hover .spanr{display:block;position: absolute;right: 0;background: rgba(255, 200, 255, 0.8);top:20%}
+
