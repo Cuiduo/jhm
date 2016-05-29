@@ -1,9 +1,58 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="UTF-8">
+		<meta charset="utf-8" />
 		<title></title>
 	</head>
+	<link rel="stylesheet" href="../css/common/base.css" />
+	<link rel="stylesheet" href="../css/common/common.css"/>
+	<link rel="stylesheet" href="../css/regist.css" />
+	
 	<body>
+    <!--top-->
+		<div id="top-big"></div>
+	<!-- conter -->
+		<div id="registBig">
+			<div id="registBig1">
+				<a href="index.html"><img src="../images/logo.jpg"/></a>
+				<span>欢迎注册</span>
+			</div>
+			<div class="registCon">
+				<div id="registPic">
+					1234567
+				</div>
+				<div id="registBox">
+					<ul id="registT">
+						<li>手机注册</li>
+						<li>邮箱注册</li>
+						<li class="registLogin"><span>已有账号</span>！ <a href="login.html">登录</a></li>
+					</ul>
+					<ol id="">
+						<li><input type="text" name="sjh" id="sjh" value="手机" /></li>
+						<li><input type="text" name="psw" id="psw" value="密码" /></li>
+						<li><input type="text" name="qrpsw" id="qrpsw" value="确认密码" /></li>
+						
+						<li>
+							<input type="text" name="yzm" id="yzm" value="手机验证码" />
+							<input type="button" name="hqyzm" id="hqyzm" value="获取手机验证码" />
+						</li>
+					</ol>
+					<input type="checkbox" name="" id="yhxy" checked="checked"/>我已看过并接受《用户协议》
+					<input type="submit" name="ljzc" id="ljzc" value="立即注册" />
+				</div>
+			</div>
+		</div>
+		 
+		
+		<div id="contefooter"></div>
+	<script src="../libs/jquery-1.12.3.js"></script>
+	<script src="../js/common.js"></script>
+	<script src="../js/index1.js"></script>
+	<script src="../js/regist.js"></script>
+	<script type="text/javascript">
+		load("common/header.html","top-big");
+		load("common/footer.html","contefooter");
+		
+	</script>
 	</body>
 </html>

@@ -1,21 +1,21 @@
 ;$(function(){
 	$("#city").mouseover(function(){
-		$("#city-box").css("display","block").mouseover(function(){
-			$("#city-box").css("display","block")
+		$("#cityBox").css("display","block").mouseover(function(){
+			$("#cityBox").css("display","block")
 		})
 	});
-	$("#city-box").mouseleave(function(){
-		$("#city-box").css("display","none")
+	$("#cityBox").mouseleave(function(){
+		$("#cityBox").css("display","none")
 	});
 	$("#city").mouseout(function(){
-		$("#city-box").css("display","none")
+		$("#cityBox").css("display","none")
 	});
 	//top二级菜单导航
 	mouse("xinxi","information");
-	mouse("shoucang","shoucang-1");
-	mouse("phone","phone-a");
-	mouse("shangjia","shangjia-a");
-	mouse("daohang","daohang-a");
+	mouse("shoucang","shoucang1");
+	mouse("phone","phonea");
+	mouse("shangjia","shangjiaa");
+	mouse("daohang","daohanga");
 	function mouse(target1,target2){
 		$("#"+target1).mouseover(function(){
 			$(this).css("background","#fff")
@@ -33,63 +33,63 @@
 		})
 	};
 	//banner二级菜单导航
-	$(".allgoods-a").mouseover(function(){
+	$(".allgoodsa").mouseover(function(){
 		$(this).css("background","#E31939");
 		$(".feiji").css("background","url(../images/banner/icohover.png) no-repeat");
 		$(".goodfl").css("display","block")
 	});
-	$(".allgoods-a").mouseout(function(){
+	$(".allgoodsa").mouseout(function(){
 		$(this).css("background","rgba(255, 255, 255, 0.8)");
 		$(".feiji").css("background","url(../images/banner/ico.png) no-repeat");
 		$(".goodfl").css("display","none")
 	});
-	$(".allgoods-b").mouseover(function(){
+	$(".allgoodsb").mouseover(function(){
 		$(this).css("background","#E31939");
 		$(".feiji1").css("background","url(../images/banner/icohover.png) no-repeat left -25px");
 		$(".goodfl2").css("display","block")
 	});
-	$(".allgoods-b").mouseout(function(){
+	$(".allgoodsb").mouseout(function(){
 		$(this).css("background","rgba(255, 255, 255, 0.8)");
 		$(".feiji1").css("background","url(../images/banner/ico.png) no-repeat left -25px");
 		$(".goodfl2").css("display","none")
 	});
-	$(".allgoods-c").mouseover(function(){
+	$(".allgoodsc").mouseover(function(){
 		$(this).css("background","#E31939");
 		$(".feiji2").css("background","url(../images/banner/icohover.png) no-repeat left -50px")
 	});
-	$(".allgoods-c").mouseout(function(){
+	$(".allgoodsc").mouseout(function(){
 		$(this).css("background","rgba(255, 255, 255, 0.8)");
 		$(".feiji2").css("background","url(../images/banner/ico.png) no-repeat left -50px")
 	});
-	$(".allgoods-d").mouseover(function(){
+	$(".allgoodsd").mouseover(function(){
 		$(this).css("background","#E31939");
 		$(".feiji3").css("background","url(../images/banner/icohover.png) no-repeat left -72px")
 	});
-	$(".allgoods-d").mouseout(function(){
+	$(".allgoodsd").mouseout(function(){
 		$(this).css("background","rgba(255, 255, 255, 0.8)");
 		$(".feiji3").css("background","url(../images/banner/ico.png) no-repeat left -72px")
 	});
-	$(".allgoods-e").mouseover(function(){
+	$(".allgoodse").mouseover(function(){
 		$(this).css("background","#E31939");
 		$(".feiji4").css("background","url(../images/banner/icohover.png) no-repeat left -95px")
 	});
-	$(".allgoods-e").mouseout(function(){
+	$(".allgoodse").mouseout(function(){
 		$(this).css("background","rgba(255, 255, 255, 0.8)");
 		$(".feiji4").css("background","url(../images/banner/ico.png) no-repeat left -95px")
 	});
-	$(".allgoods-f").mouseover(function(){
+	$(".allgoodsf").mouseover(function(){
 		$(this).css("background","#E31939");
 		$(".feiji5").css("background","url(../images/banner/icohover.png) no-repeat left -118px")
 	});
-	$(".allgoods-f").mouseout(function(){
+	$(".allgoodsf").mouseout(function(){
 		$(this).css("background","rgba(255, 255, 255, 0.8)");
 		$(".feiji5").css("background","url(../images/banner/ico.png) no-repeat left -118px")
 	});
-	$(".allgoods-g").mouseover(function(){
+	$(".allgoodsg").mouseover(function(){
 		$(this).css("background","#E31939");
 		$(".feiji6").css("background","url(../images/banner/icohover.png) no-repeat left -143px")
 	});
-	$(".allgoods-g").mouseout(function(){
+	$(".allgoodsg").mouseout(function(){
 		$(this).css("background","rgba(255, 255, 255, 0.8)");
 		$(".feiji6").css("background","url(../images/banner/ico.png) no-repeat left -143px")
 	});

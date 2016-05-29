@@ -15,62 +15,64 @@
 #nav #sanbao{position: absolute;top: 20px;right: 0;height: 80px;text-align: right;width: 200px;background:url(../images/nav-right.png) no-repeat center;}
 #nav #sanbao a{width: 33.3%;height: 80px;float: left;display: inline-block;}
 #naver{width: 100%;height: 47px;border-bottom: 1px solid #f00}
-#naver #naver-big{width: 1210px;line-height: 37px;margin: 0 auto;padding-top: 10px}
-#naver #naver-big #naver-left{width: 210px;height: 37px;text-align: center;float: left;background: #E31939;}
-#naver #naver-big #naver-left a{font-weight: bold;font-size: 15px;color: #fff;}
-#naver #naver-big #naver-right{width: 900px;height: 37px;float: left;padding-left: 20px;}
-#naver #naver-big #naver-right ul li{float: left;padding: 0 20px;font-size: 15px;}
-#naver #naver-big #naver-right a{color: #000;font-weight: bold;}
-#naver #naver-big #naver-right a:hover{color: #f00;}
+#naver #naverBig{width: 1210px;line-height: 37px;margin: 0 auto;padding-top: 10px}
+#naver #naverBig #naverLeft{width: 210px;height: 37px;text-align: center;float: left;background: #E31939;}
+#naver #naverBig #naverLeft a{font-weight: bold;font-size: 15px;color: #fff;}
+#naver #naverBig #naverRight{width: 900px;height: 37px;float: left;padding-left: 20px;}
+#naver #naverBig #naverRight ul li{float: left;padding: 0 20px;font-size: 15px;}
+#naver #naverBig #naverRight a{color: #000;font-weight: bold;}
+#naver #naverBig #naverRight a:hover{color: #f00;}
 /*------------------------------------------banner---------------------------------*/
-#banner-big{width:100%;height: 514px;position: relative;}
-#banner-big #banner{width: 1210px;height: 514px;margin: 0 auto;position: relative;overflow: hidden;} 
-#banner-big #banner ul li{width: 100%;height: 514px;position: relative;overflow: hidden;}
-#banner-big #banner ul .bn1{background: url(../images/index/banner/banner.jpg) 50% 50% no-repeat;}
-#banner-big #banner ul .bn2{background: url(../images/index/banner/banner1.jpg) 50% 50% no-repeat;}
-#banner-big #banner ul .bn3{background: url(../images/index/banner/banner2.jpg) 50% 50% no-repeat;}
-#banner-big #banner ul .bn4{background: url(../images/index/banner/banner3.jpg) 50% 50% no-repeat;}
-#banner-big #banner ul .bn5{background: url(../images/index/banner/banner4.jpg) 50% 50% no-repeat;}
-#banner-big #banner ul .bn6{background: url(../images/index/banner/banner5.jpg) 50% 50% no-repeat;}
-#banner-big #banner ul .bn7{background: url(../images/index/banner/banner6.png) 50% 50% no-repeat;}
-#banner-big #banner #easy{width: 1210px;height: 514px;margin: 0 auto;position: absolute;top:0;left: 0px;}
-#banner-big #easy #allgoods{width: 210px;height: 514px;background: rgba(255, 255, 255, 0.8)}
-
-#banner-big #easy #allgoods dl:hover{cursor: pointer;}
-#banner-big #easy #allgoods .goodfl{display: none; background: #fff;border: solid 1px #DE1838;box-shadow: 1px 1px 8px #dfdfdf; left: 208px;position: absolute;top: 0;width: 747px;height: 470px;z-index: 11;padding: 20px;}
-#banner-big #easy #allgoods .goodfl h3{line-height: 45px;border-bottom: 1px dashed #808080;}
-#banner-big #easy #allgoods .goodfl p a{display:inline-block;padding: 5px 20px;color: #000;}
-#banner-big #easy #allgoods .goodfl p a:hover{color: #FF4D4D;}
-#banner-big #easy #allgoods .goodfl2{display: none; background: #fff;border: solid 1px #DE1838;box-shadow: 1px 1px 8px #dfdfdf; left: 208px;position: absolute;top: 70px;width: 747px;height: 470px;z-index: 11;padding: 20px;}
-#banner-big #easy #allgoods .goodfl2 h3{line-height: 45px;border-bottom: 1px dashed #808080;}
-#banner-big #easy #allgoods .goodfl2 p a{display:inline-block;padding: 5px 20px;color: #000;}
-#banner-big #easy #allgoods .goodfl2 p a:hover{color: #FF4D4D;}
-#banner-big #easy #allgoods .feiji{line-height: 22px;padding-left: 42px;display: block;width: 146px;background:url(../images/banner/ico.png) no-repeat}
-#banner-big #easy #allgoods .feiji1{line-height: 22px;padding-left: 42px;display: block;width: 146px;background:url(../images/banner/ico.png) no-repeat left -25px}
-#banner-big #easy #allgoods .feiji2{line-height: 22px;padding-left: 42px;display: block;width: 146px;background:url(../images/banner/ico.png) no-repeat left -50px}
-#banner-big #easy #allgoods .feiji3{line-height: 22px;padding-left: 42px;display: block;width: 146px;background:url(../images/banner/ico.png) no-repeat left -72px}
-#banner-big #easy #allgoods .feiji4{line-height: 22px;padding-left: 42px;display: block;width: 146px;background:url(../images/banner/ico.png) no-repeat left -95px}
-#banner-big #easy #allgoods .feiji5{line-height: 22px;padding-left: 42px;display: block;width: 146px;background:url(../images/banner/ico.png) no-repeat left -118px}
-#banner-big #easy #allgoods .feiji6{line-height: 22px;padding-left: 42px;display: block;width: 146px;background:url(../images/banner/ico.png) no-repeat left -143px}
-#banner-big #easy #allgoods dl{width: 200px;}
-#banner-big #easy #allgoods dl{padding: 12px 5px;border-bottom: 1px solid #CCCCCC;}
-#banner-big #easy #allgoods dl dd{line-height: 22px;padding-left: 42px;display: block;width: 146px;}
-#banner-big #banner #banner-bt{position: absolute;left:200px;bottom: 0;}
-#banner-big #banner #banner-bt a{padding: 1px;}
-#banner-big #banner #banner-rt{position: absolute;right:0;top: 0;width: 200px;height: 335px;background: rgba(255, 255, 255, 0.8);}
-#banner-big #banner #banner-rt .fangshi{font-size: 18px;line-height: 30px;border-bottom: 1px solid #000;}
-#banner-big #banner #banner-rt ol li p{line-height: 20px;}
-#banner-big #banner #banner-rt ol li p span{background:#E31939;width: 20px;display: inline-block;text-align: center;margin: 10px;}
-#banner-big #banner #banner-rt ol li .ddh{padding-left: 38px;line-height: 35px;}
-#banner-big #banner #banner-rt ol li .call{padding-left: 38px;font-size: 24px;color: darkred;line-height: 20px;}
-#banner-big #banner #banner-rt img{padding-left:60px ;width: 50px;height: 50px;}
-#banner-big #banner #banner-rt #banner-rt-bt{text-align: center;position: relative;}
-#banner-big #banner #banner-rt #banner-rt-bt p{padding-top:20px;font-size: 18px;}
-#banner-big #banner #banner-rt #shenqing{background: #FF7900;width: 150px;height: 50px;margin: 0 auto;border-radius: 5px;margin-top: 30px;}
-#banner-big #banner #banner-rt #shenqing a{color: #fff;}
-#banner-big #banner #banner-rt #shenqing .ruzhu{font-size: 20px;}
-#banner-big #banner #banner-rt .guanli{display:block;padding-top: 30px;}
-#banner-big #banner #banner-rt .guanli:hover{color: red;}
+#bannerBig{width:100%;height: 514px;position: relative;}
+#bannerBig #banner{width: 1210px;height: 514px;margin: 0 auto;position: relative;overflow: hidden;} 
+#bannerBig #banner .pic ul li{width: 100%;height: 514px;position: relative;overflow: hidden;}
+#bannerBig #banner .pic ul .bn1{background: url(../images/index/banner/banner.jpg) 50% 50% no-repeat;}
+#bannerBig #banner .pic ul .bn2{background: url(../images/index/banner/banner1.jpg) 50% 50% no-repeat;}
+#bannerBig #banner .pic ul .bn3{background: url(../images/index/banner/banner2.jpg) 50% 50% no-repeat;}
+#bannerBig #banner .pic ul .bn4{background: url(../images/index/banner/banner3.jpg) 50% 50% no-repeat;}
+#bannerBig #banner .pic ul .bn5{background: url(../images/index/banner/banner4.jpg) 50% 50% no-repeat;}
+#bannerBig #banner .pic ul .bn6{background: url(../images/index/banner/banner5.jpg) 50% 50% no-repeat;}
+#bannerBig #banner .pic ul .bn7{background: url(../images/index/banner/banner6.png) 50% 50% no-repeat;}
+#bannerBig #banner #easy{width: 1210px;height: 514px;margin: 0 auto;position: absolute;top:0;left: 0px;}
+#bannerBig #easy #allgoods{width: 210px;height: 514px;background: rgba(255, 255, 255, 0.8)}
+#bannerBig #banner .bannernav ul li{border:1px solid white;width:20px;height:5px;float:left;margin-left:5px;}
+#bannerBig #banner  .bannernav{width:230px;height:30px;position:absolute;left:800px;top:310px;}
+.select{background-color:white;}
+#bannerBig #easy #allgoods dl:hover{cursor: pointer;}
+#bannerBig #easy #allgoods .goodfl{display: none; background: #fff;border: solid 1px #DE1838;box-shadow: 1px 1px 8px #dfdfdf; left: 208px;position: absolute;top: 0;width: 747px;height: 470px;z-index: 11;padding: 20px;}
+#bannerBig #easy #allgoods .goodfl h3{line-height: 45px;border-bottom: 1px dashed #808080;}
+#bannerBig #easy #allgoods .goodfl p a{display:inline-block;padding: 5px 20px;color: #000;}
+#bannerBig #easy #allgoods .goodfl p a:hover{color: #FF4D4D;}
+#bannerBig #easy #allgoods .goodfl2{display: none; background: #fff;border: solid 1px #DE1838;box-shadow: 1px 1px 8px #dfdfdf; left: 208px;position: absolute;top: 70px;width: 747px;height: 470px;z-index: 11;padding: 20px;}
+#bannerBig #easy #allgoods .goodfl2 h3{line-height: 45px;border-bottom: 1px dashed #808080;}
+#bannerBig #easy #allgoods .goodfl2 p a{display:inline-block;padding: 5px 20px;color: #000;}
+#bannerBig #easy #allgoods .goodfl2 p a:hover{color: #FF4D4D;}
+#bannerBig #easy #allgoods .feiji{line-height: 22px;padding-left: 42px;display: block;width: 146px;background:url(../images/banner/ico.png) no-repeat}
+#bannerBig #easy #allgoods .feiji1{line-height: 22px;padding-left: 42px;display: block;width: 146px;background:url(../images/banner/ico.png) no-repeat left -25px}
+#bannerBig #easy #allgoods .feiji2{line-height: 22px;padding-left: 42px;display: block;width: 146px;background:url(../images/banner/ico.png) no-repeat left -50px}
+#bannerBig #easy #allgoods .feiji3{line-height: 22px;padding-left: 42px;display: block;width: 146px;background:url(../images/banner/ico.png) no-repeat left -72px}
+#bannerBig #easy #allgoods .feiji4{line-height: 22px;padding-left: 42px;display: block;width: 146px;background:url(../images/banner/ico.png) no-repeat left -95px}
+#bannerBig #easy #allgoods .feiji5{line-height: 22px;padding-left: 42px;display: block;width: 146px;background:url(../images/banner/ico.png) no-repeat left -118px}
+#bannerBig #easy #allgoods .feiji6{line-height: 22px;padding-left: 42px;display: block;width: 146px;background:url(../images/banner/ico.png) no-repeat left -143px}
+#bannerBig #easy #allgoods dl{width: 200px;}
+#bannerBig #easy #allgoods dl{padding: 12px 5px;border-bottom: 1px solid #CCCCCC;}
+#bannerBig #easy #allgoods dl dd{line-height: 22px;padding-left: 42px;display: block;width: 146px;}
+#bannerBig #banner #bannerBt{position: absolute;left:200px;bottom: 0;}
+#bannerBig #banner #bannerBt a{padding: 1px;}
+#bannerBig #banner #bannerRt{position: absolute;right:0;top: 0;width: 200px;height: 335px;background: rgba(255, 255, 255, 0.8);}
+#bannerBig #banner #bannerRt .fangshi{font-size: 18px;line-height: 30px;border-bottom: 1px solid #000;}
+#bannerBig #banner #bannerRt ol li p{line-height: 20px;}
+#bannerBig #banner #bannerRt ol li p span{background:#E31939;width: 20px;display: inline-block;text-align: center;margin: 10px;}
+#bannerBig #banner #bannerRt ol li .ddh{padding-left: 38px;line-height: 35px;}
+#bannerBig #banner #bannerRt ol li .call{padding-left: 38px;font-size: 24px;color: darkred;line-height: 20px;}
+#bannerBig #banner #bannerRt img{padding-left:60px ;width: 50px;height: 50px;}
+#bannerBig #banner #bannerRt #bannerRtbt{text-align: center;position: relative;}
+#bannerBig #banner #bannerRt #bannerRtbt p{padding-top:20px;font-size: 18px;}
+#bannerBig #banner #bannerRt #shenqing{background: #FF7900;width: 150px;height: 50px;margin: 0 auto;border-radius: 5px;margin-top: 30px;}
+#bannerBig #banner #bannerRt #shenqing a{color: #fff;}
+#bannerBig #banner #bannerRt #shenqing .ruzhu{font-size: 20px;}
+#bannerBig #banner #bannerRt .guanli{display:block;padding-top: 30px;}
+#bannerBig #banner #bannerRt .guanli:hover{color: red;}
 /*------------------------------sidebar----------------------------------*/
 #sidebar{height: 100%;width: 35px;position: fixed;top: 0;right: 0;padding-top: 1px;background-color:#333;z-index: 99999 ;}
 /*------------------------------------main----------------------------------------------*/
@@ -95,17 +97,17 @@
 #hotStores #hot #tabc ul li{float: left;width: 122px;height: 86px;border:1px solid #ccc;text-align: center;padding-top: 20px;position: relative;}
 #hotStores #hot #tabr{float: right;}
 /*-------------------fkqk-big-------------------------------------------*/
-#fkqg-big{width: 100%;height: 350px;}
-#fkqg-big #fkqg{width: 1210px;height: 350px;margin: 0 auto;}
-#fkqg-big #fkqg #fkqg-ul{width: 1210px;height: 48px;}
-#fkqg-big #fkqg #fkqg-ul ul li{float: left;line-height: 42px;width: 200px;text-align: center;}
-#fkqg-big #fkqg #fkqg-ul ul li:hover{border-bottom: 2px solid #dd102e;}
-#fkqg-big #fkqg #fkqg-ul ul li a{font-size: 20px;}
-#fkqg-big #fkqg #fkqg-dl dl{border:1px solid #ccc;width: 198px;height: 280px;padding-top: 10px;float: left;}
-#fkqg-big #fkqg #fkqg-dl dl dt{text-align:center;}
-#fkqg-big #fkqg #fkqg-dl dl dt img{width: 180px;height: 180px;}
-#fkqg-big #fkqg #fkqg-dl dl dd{width: 180px;line-height: 30px;color: #000;padding: 0 10px;}
-#fkqg-big #fkqg #fkqg-dl dl dd span{color: #f00;}
+#fkqgBig{width: 100%;height: 350px;}
+#fkqgBig #fkqg{width: 1210px;height: 350px;margin: 0 auto;}
+#fkqgBig #fkqg #fkqgul{width: 1210px;height: 48px;}
+#fkqgBig #fkqg #fkqgul ul li{float: left;line-height: 42px;width: 200px;text-align: center;}
+#fkqgBig #fkqg #fkqgul ul li:hover{border-bottom: 2px solid #dd102e;}
+#fkqgBig #fkqg #fkqgul ul li a{font-size: 20px;}
+#fkqgBig #fkqg #fkqgdl dl{border:1px solid #ccc;width: 198px;height: 280px;padding-top: 10px;float: left;}
+#fkqgBig #fkqg #fkqgdl dl dt{text-align:center;}
+#fkqgBig #fkqg #fkqgdl dl dt img{width: 180px;height: 180px;}
+#fkqgBig #fkqg #fkqgdl dl dd{width: 180px;line-height: 30px;color: #000;padding: 0 10px;}
+#fkqgBig #fkqg #fkqgdl dl dd span{color: #f00;}
 /*--------------------------------------楼梯----------------------------------------------*/
 #lou{width: 100%;}
 #lou #main{width: 1210px;height:5680px;margin: 0 auto;}

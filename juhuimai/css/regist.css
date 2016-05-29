@@ -1,0 +1,9 @@
+#registBig{width:100%;height: 600px;position: relative;}
+#registBig #registBig1{width:1000px;height: 130px;margin: 0 auto;background: pink;}
+#registBig #registBig1 span{border-left: 1px solid #666666;font-size: 30px;line-height: 130px;margin: 40px 0 0 30px;padding-left: 30px;}
+#registBig .registCon{width: 1000px;height: 460px;margin: 0 auto;}
+#registBig .registCon #registPic{width: 600px;height: 430px;background: greenyellow;float:left;}
+#registBig .registCon #registBox{width: 400px;height: 460px;background: yellow;float: right;}
+#registBox #registT li{float: left;line-height: 20px;padding: 5px 20px;font-size: 16px;}
+#registBox #registT .registLogin{float: right;font-size: 12px;}
+#registBox #registT .registLogin a{color: red;}
