@@ -346,14 +346,14 @@
 			 			<li><a href="#"><img src="../images/1451495587613306777.jpg"/></a></li>
 			 			<li><a href="#"><img src="../images/1451495777494839060.jpg"/></a></li>
 			 			<li><a href="#"><img src="../images/1450747557149339013.jpg"/></a></li>
-			 			<li><a href="#"><img src="../images/1451495209486986888.jpg"/></a></li>
 			 			<li><a href="#"><img src="../images/1450747557149339013.jpg"/></a></li>
-			 			<li><a href="#"><img src="../images/1451495209486986888.jpg"/></a></li>
-			 			<li><a href="#"><img src="../images/1451495209486986888.jpg"/></a></li>
 			 			<li><a href="#"><img src="../images/1450747557149339013.jpg"/></a></li>
-			 			<li><a href="#"><img src="../images/1451495209486986888.jpg"/></a></li>
 			 			<li><a href="#"><img src="../images/1450747557149339013.jpg"/></a></li>
-			 			<li><a href="#"><img src="../images/1451495209486986888.jpg"/></a></li>
+			 			<li><a href="#"><img src="../images/1450747557149339013.jpg"/></a></li>
+			 			<li><a href="#"><img src="../images/1450747557149339013.jpg"/></a></li>
+			 			<li><a href="#"><img src="../images/1450747557149339013.jpg"/></a></li>
+			 			<li><a href="#"><img src="../images/1450747557149339013.jpg"/></a></li>
+			 			<li><a href="#"><img src="../images/1450747557149339013.jpg"/></a></li>
 			 			<li><a href="#"><img src="../images/1450747557149339013.jpg"/></a></li>
 			 		</ul>
 			 	</div>
@@ -662,7 +662,7 @@
 			$("#banner ul li").eq(index)
 		}
 
-		setInterval("change()", 3000);
+		setInterval("change()", 1000);
 
 		function change() {
 			index++;

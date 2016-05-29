@@ -56,6 +56,6 @@
 #contefooter #footer-b p{line-height: 30px;}
 #contefooter #footer-b .foo{width: 120px;height: 30px;margin:0 auto;background: red;line-height: 30px;}
 #contefooter #footer-b .foo a{color: #fff;}
-#contefooter #footerPro{width: 780px;height: 80px;margin: 0 auto;overflow: hidden;}
+#contefooter #footerPro{width: 750px;height: 80px;margin: 0 auto;overflow: hidden;}
 #contefooter #footerPro ul li{float: left;padding:20px 15px;}
 #contefooter #footerbt{width: 1210px;height: 100px;margin: 0 auto;text-align: center;line-height: 30px;}
