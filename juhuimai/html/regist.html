@@ -10,35 +10,41 @@
 	
 	<body>
     <!--top-->
-		<div id="top-big"></div>
+		<div id="topBig"></div>
 	<!-- conter -->
 		<div id="registBig">
 			<div id="registBig1">
-				<a href="index.html"><img src="../images/logo.jpg"/></a>
+				<a href="index.html"><img src="../images/login/logo.jpg"/></a>
 				<span>欢迎注册</span>
 			</div>
 			<div class="registCon">
 				<div id="registPic">
-					1234567
+					<a href="#"><img src="../images/login/loginpic.jpg"/></a>
 				</div>
 				<div id="registBox">
 					<ul id="registT">
-						<li>手机注册</li>
-						<li>邮箱注册</li>
+						<li>注册</li>
+						
 						<li class="registLogin"><span>已有账号</span>！ <a href="login.html">登录</a></li>
 					</ul>
-					<ol id="">
-						<li><input type="text" name="sjh" id="sjh" value="手机" /></li>
-						<li><input type="text" name="psw" id="psw" value="密码" /></li>
-						<li><input type="text" name="qrpsw" id="qrpsw" value="确认密码" /></li>
+					<ol id="infor">
+						<li><input type="text" name="sjh" id="sjh" placeholder="手机/邮箱" /></li>
+						<li><input type="text" name="psw" id="psw" placeholder="密码" /></li>
+						<li><input type="text" name="qrpsw" id="qrpsw" placeholder="确认密码" /></li>
 						
 						<li>
-							<input type="text" name="yzm" id="yzm" value="手机验证码" />
-							<input type="button" name="hqyzm" id="hqyzm" value="获取手机验证码" />
+							<input type="text" id="codetxt" /><span id="tips"></span>
+							<input type="button" name="hqyzm" id="hqyzm" value="请输入验证码" />
+							
+						</li>
+						<div id="codediv"></div>
+						<li>	
+							<input type="checkbox" name="" id="yhxy" checked="checked"/>我已看过并接受《用户协议》</li>
+						<li>	
+							<input type="submit" name="ljzc" id="ljzc" value="立即注册" />
 						</li>
 					</ol>
-					<input type="checkbox" name="" id="yhxy" checked="checked"/>我已看过并接受《用户协议》
-					<input type="submit" name="ljzc" id="ljzc" value="立即注册" />
+				
 				</div>
 			</div>
 		</div>
@@ -49,8 +55,9 @@
 	<script src="../js/common.js"></script>
 	<script src="../js/index1.js"></script>
 	<script src="../js/regist.js"></script>
+	<script src="js/jquery-1.10.0.js"></script>
 	<script type="text/javascript">
-		load("common/header.html","top-big");
+		load("common/header.html","topBig");
 		load("common/footer.html","contefooter");
 		
 	</script>

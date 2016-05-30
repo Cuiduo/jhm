@@ -25,14 +25,5 @@
 		$("#information").css("display","none")
 	})
 
-	// function mouseover(data1,data2){
-	// 	$(data1).mouseover(function(){
-	// 		$("data2").css({"display","block"})
-	// 	})
-	// }
-	// function mouseleave(function(data1,data2){
-	// 	$(data1).mouseleave(function(){
-	// 		$("data2").css({"display","none"})
-	// 	})
-	// })
+	
 });

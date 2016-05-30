@@ -10,11 +10,48 @@
 	
 	<body>
     <!--top-->
-		<div id="top-big"></div>
+		<div id="topBig"></div>
 	<!-- conter -->
-		<div id="login-a">
-			<div id="login-b">
+		<div id="registBig">
+			<div id="registBig1">
+				<a href="index.html"><img src="../images/login/logo.jpg"/></a>
+				<span>   欢迎登录</span>
+			</div>
+			<div class="registCon">
+				<div id="registPic">
+					<a href="#"><img src="../images/login/loginpic.jpg"/></a>
+				</div>
+				<div id="registBox">
+					<ul id="registT">
+						<li>登录</li>
+						
+						<li class="registLogin"><span>还没有账号</span>！ <a href="regist.html">立即注册</a></li>
+					</ul>
+					<ol id="infor">
+						
+						<li><label for="username">用户：</label></li>
+						<li>
+							
+							<input type="text" name="sjh" id="sjh" placeholder="用户名/手机/邮箱" />
+						</li>
+						<li><label for="password">密码：</label></li>
+						<li>
+						    
+	            			<input type="password" id="password" name="password"/>
+						</li>
+						<li>	
+							<input type="submit" name="ljzc" id="ljzc" value="登陆" />
+						</li>
+						
+						<li>
+							<input type="checkbox" name="" id="yhxy" checked="checked"/>我已看过并接受《用户协议》
+						</li>	
+							
+							
+						
+					</ol>
 				
+				</div>
 			</div>
 		</div>
 		 
@@ -24,8 +61,9 @@
 	<script src="../js/common.js"></script>
 	<script src="../js/index1.js"></script>
 	<script src="../js/login.js"></script>
+	
 	<script type="text/javascript">
-		load("common/header.html","top-big");
+		load("common/header.html","topBig");
 		load("common/footer.html","contefooter");
 		
 	</script>

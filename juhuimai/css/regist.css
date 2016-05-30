@@ -1,9 +1,32 @@
-#registBig{width:100%;height: 600px;position: relative;}
-#registBig #registBig1{width:1000px;height: 130px;margin: 0 auto;background: pink;}
+#registBig{width:100%;height: 700px;position: relative;}
+#registBig #registBig1{width:1000px;height: 130px;margin: 0 auto;}
 #registBig #registBig1 span{border-left: 1px solid #666666;font-size: 30px;line-height: 130px;margin: 40px 0 0 30px;padding-left: 30px;}
 #registBig .registCon{width: 1000px;height: 460px;margin: 0 auto;}
-#registBig .registCon #registPic{width: 600px;height: 430px;background: greenyellow;float:left;}
-#registBig .registCon #registBox{width: 400px;height: 460px;background: yellow;float: right;}
+
+#registBig .registCon #registPic{width: 600px;height: 430px;float:left;text-align: center;vertical-align: middle;display: block;}
+#registBig .registCon #registPic img{margin-top: 40px;}
+#registBig .registCon #registBox{width: 398px;height: 550px;float: right;overflow: hidden;}
+#registBox{border: 1px solid #999;}
+
 #registBox #registT li{float: left;line-height: 20px;padding: 5px 20px;font-size: 16px;}
 #registBox #registT .registLogin{float: right;font-size: 12px;}
 #registBox #registT .registLogin a{color: red;}
+#registBox #infor{line-height: 30px;padding-left: 30px;}
+#registBox #infor #sjh,#psw,#qrpsw{width: 320px;height: 32px;margin: 20px 0;color: #666666;border: 1px solid #999;padding-left: 10px;}
+
+#codetxt{width: 130px;height: 32px;margin: 10px 0;border: 1px solid #999;}
+#hqyzm{width: 100px;height: 32px;margin: 10px 0;cursor: pointer;background: red;color: #FFFFFF;}
+#codediv{
+			 
+			 width: 100px;
+ height: 36px;
+			 padding: 5px 10px;
+			 border:1px #ccc solid;
+			 background: url(../images/login/21.png)no-repeat left center;
+			 font-weight: 700;
+			 font-size: 24px;
+		 }
+#tips{font-size: 14px;color: red; }
+#yhxy{margin: 30px 0;}
+#ljzc{width: 320px;height: 32px;background: red;margin-top: 10px;cursor: pointer;color: #FFFFFF;}
+#

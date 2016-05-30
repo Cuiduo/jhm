@@ -1,0 +1,32 @@
+.goodList{width: 1210px;height: 1000px;margin: 0 auto;background: pink;}
+.floor{width: 1210px;height: 620px;}
+.floor .floorl{width: 240px;height: 600px;float: left;}
+.floor .floorl h2{font-size: 22px;height: 35px;line-height: 35px;} 
+.floor .floorl a{color: #666666;}
+.floor .floorl .words{padding: 10px 0;background: limegreen;width: 240px;height: 250px;}
+.floor .floorl .words a{margin: 0;background: #fff;line-height: 1.1em;float: left;width: 66px;    height: 45px; text-align: center;color: #2f2f2f; position: relative;border-radius:35px;margin: 5px;padding-top: 23px;border: 1px solid #999999;} 
+.floor .floorl .words a:hover{background:limegreen ;color: #fff;}
+.floor .floortab {width: 820px;height: 600px;float: left;position: relative;}
+.floor .floortab .goods .tabnav li{float: left;line-height: 34px;padding: 0 10px;border: 1px solid #32CD32;}
+.floor .floortab .goods .tabnav{position: absolute;right: -150px;top: 2px;}
+.floor .floortab .goods .good{margin-top: 38px;float: left;}
+.floor .floortab .goods .good dl{width: 180px;height:260px;padding: 10px;border: 2px solid #ccc;float: left;}
+.floor .floortab .goods .good dl:hover{border: 2px solid red;}
+.floor .floortab .goods .good img{width: 160px;}
+.floor .floortab .goods .good a{color: #000;}
+.floor .floortab .goods .good .youhui{color: orangered;font-size: 20px;}
+.floor .floortab .goods .good dd{position: relative;width: 160px;}
+.floor .floortab .goods .good .gwc{width:30px;height:30px;position: absolute;bottom: 0;right: 10px;background:url(../images/index/gouwuche.png)  no-repeat;}
+.floor .floorr{padding-top: 38px;}
+ .floor .floorr img{padding:7px 0}
+.floorbt{width: 1210px;height: 80px;margin: 0 auto;background: #AAAAAA;overflow: hidden;position: relative;}
+.floorbt ul{width: 20000px;position: absolute;}
+.floorbt ul li{float: left;padding: 17px 10px ;}
+.floorbt .spanl,.spanr{display: none;}
+.floorbt:hover .spanl{display:block;position: absolute;left: 0;background: rgba(255, 200, 255, 0.8);top:20%}
+.floorbt:hover .spanr{display:block;position: absolute;right: 0;background: rgba(255, 200, 255, 0.8);top:20%}
+
+
+
+
+

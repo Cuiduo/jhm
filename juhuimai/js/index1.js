@@ -104,11 +104,12 @@
 	uli.mouseover(function(){
 		var index=$(this).index();
 		ulogo.removeClass("show").addClass("hide");
-		ulogo.eq(index).addClass("show")
+		ulogo.eq(index).addClass("show");
+		uli.eq(index).css("border-bottom", "2px solid #dd102e").siblings().css("border-bottom", "2px solid #fff")
 	});
 	$(".beerfix li").mouseover(function(){
-		$(this).animate({"left":"-50px"},300,function(){
-			$(this).animate({"left":"0"},300)
+		$(this).animate({"left":-50},300,function(){
+			$(this).animate({"left":0},300)
 		})
 	})
 	//HOISTRY
