@@ -21,7 +21,9 @@
 		var sum = $(".shul").val();
 		
 	})
-	
+	$(".jrgwc").click(function(){
+		location.href="shopcar.html"
+	})
 	
 	
 	//吸顶菜单效果
