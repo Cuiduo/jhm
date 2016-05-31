@@ -1,0 +1,17 @@
+.flowBox{width: 1000px;height: 400px;margin: 0 auto;}
+.flowBox .flowtop{width: 960px;height: 50px;background: #E5E5E5;line-height: 50px;padding: 0 20px;}
+.flowBox .flowtop span{padding: 0 75px;}
+.flowBox p{height: 50;line-height: 50px;width: 960px;background: #FAFAFA;color: red;padding: 0 20px;font-weight: 600;border-top: 2px solid #999999;}
+.flowBox .goodsp{width: 960px;min-height: 100px;background: #fff;line-height: 50px;padding: 0 20px;}
+.flowBox .goodsp .goodsp1 .allpay{font-size: 16px;color: red;}
+.flowBox .goodsp .goodsp1{width: 960px;min-height: 60px;border-bottom: 1px solid #F2F2F2;}
+.flowBox .goodsp span{padding: 0 71px;}
+.flowBox .goodsp span img{width: 60px;height: 60px;}
+.flowBox .goodsp .goodsp1 span .jian{width: 15px;height: 15px;}
+.flowBox .goodsp .goodsp1 span .shul{width: 20px;height: 20px;}
+.flowBox .goodsp .goodsp1 span .jia{width: 15px;height: 15px;}
+.flowBox .goshop{width: 960px;height: 60px;background: #fff;line-height: 50px;padding: 0 20px;}
+.flowBox .goshop input{padding: 0 80px;}
+.flowBox .goshop .jxshpo{width: 50px;height: 30px;background: red;color: #fff;}
+.flowBox .goshop .gopay{width: 50px;height: 30px;background: #FFA500;color: #fff;}
+.flowBox .goshop span{padding-right:20px ;color: red;font-size: 16px;}

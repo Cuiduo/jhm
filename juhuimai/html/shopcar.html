@@ -6,6 +6,7 @@
 	</head>
 	<link rel="stylesheet" href="../css/common/base.css" />
 	<link rel="stylesheet" href="../css/common/common.css"/>
+	
 	<link rel="stylesheet" href="../css/login.css" />
 	<link rel="stylesheet" href="../css/shopcar.css" />
 	
@@ -20,7 +21,7 @@
 			</div>
 			<div class="flowBox">
 				<div class="flowtop">
-					<input type="checkbox"  value="全选" />
+					<input type="checkbox" checked="checked" value="" />全选
 					<span>产品</span>
 					<span>数量</span>
 					<span>本店价</span>
@@ -29,7 +30,24 @@
 				</div>
 				<p class="dianPua">店铺：聚会买商贸公司</p>
 				<div class="goodsp">
-					
+					<div class="goodsp1">
+						<input type="checkbox" checked="checked" value="" />
+						<span><img src="../images/login/3101.jpg"/></span>
+						<span>
+							<input class="jian" type="button"  value="-" />
+							<input class="shul" type="text"  value="1" style="text-align: center;"/>
+							<input class="jia" type="button"  value="+" />
+						</span>
+						<span class="money">79</span>
+						<span class="allpay">79</span>
+						<span><input type="button" value="删除" class="delate"/></span>
+					</div>
+				</div>
+				<div class="goshop">
+					<input class="jxshpo" type="button" value="继续购物" />
+					<input type="button" value="清空购物车" />
+					<span class="aaa">79</span>
+					<input class="gopay" type="button" value="去结算" />
 				</div>
 			</div>
 		 
@@ -38,8 +56,8 @@
 	<script src="../libs/jquery-1.12.3.js"></script>
 	<script src="../js/common.js"></script>
 	<script src="../js/index1.js"></script>
-	<script src="../js/regist.js"></script>
-	<script src="js/jquery-1.10.0.js"></script>
+	<script src="../js/shopcar.js"></script>
+	
 	<script type="text/javascript">
 		load("common/header.html","topBig");
 		load("common/footer.html","contefooter");
