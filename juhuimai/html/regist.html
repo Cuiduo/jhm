@@ -28,9 +28,27 @@
 						<li class="registLogin"><span>已有账号</span>！ <a href="login.html">登录</a></li>
 					</ul>
 					<ol id="infor">
-						<li><input type="text" name="sjh" id="sjh" placeholder="手机/邮箱" /></li>
-						<li><input type="text" name="psw" id="psw" placeholder="密码" /></li>
-						<li><input type="text" name="qrpsw" id="qrpsw" placeholder="确认密码" /></li>
+						
+						<li>
+					    	<form id="demoForm">	
+					    	<span id="info"></span>
+					        <span id="info2" style="display: none">输入错误</span>
+					        <p>
+					            
+					            <input type="text" id="username" name="username" placeholder="手机号"/>
+					        </p>
+					
+					        <p>
+					            
+					            <input type="password" id="password" name="password" placeholder="密码"/>
+					        </p>
+					
+					        <p>
+					            
+					            <input type="password" id="confirm-password" name="confirm-password" placeholder="确认密码"/>
+					        </p>
+					        </form>
+					    </li>
 						
 						<li>
 							<input type="text" id="codetxt" /><span id="tips"></span>
@@ -40,8 +58,9 @@
 						<div id="codediv"></div>
 						<li>	
 							<input type="checkbox" name="" id="yhxy" checked="checked"/>我已看过并接受《用户协议》</li>
-						<li>	
-							<input type="submit" name="ljzc" id="ljzc" value="立即注册" />
+						<li>
+							
+							<input type="submit" name="ljzc" id="check" value="立即注册" />
 						</li>
 					</ol>
 				
@@ -51,15 +70,21 @@
 		 
 		
 		<div id="contefooter"></div>
+	
 	<script src="../libs/jquery-1.12.3.js"></script>
+	<script src="../libs/jquery-1.10.0.js"></script>
 	<script src="../js/common.js"></script>
 	<script src="../js/index1.js"></script>
 	<script src="../js/regist.js"></script>
-	<script src="js/jquery-1.10.0.js"></script>
+	
+	<script src="../libs/jquery.validate-1.13.1.js"></script>
 	<script type="text/javascript">
 		load("common/header.html","topBig");
 		load("common/footer.html","contefooter");
-		
+
 	</script>
+	
+
+
 	</body>
 </html>

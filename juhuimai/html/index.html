@@ -20,7 +20,7 @@
 					<li class="dianpu">店铺</li>
 				</ul>
 				<form>
-					<input type="text" value="  请输入关键词" id="txt1" /><input type="button" name="搜索" id="btn1" value="搜索">
+					<input type="text" placeholder="  请输入关键词" id="txt1" /><input type="button" name="搜索" id="btn1" value="搜索">
 				</form>
 				<a href="#">灯饰</a>|
 				<a href="#">私房菜</a>|
@@ -94,7 +94,7 @@
 			 				<div class="goodfl">
 			 					<h3>食品:</h3>
 			 					<p>
-			 						<a href="#">香油</a>
+			 						<a href="gooddetail.html">香油</a>
 			 						<a href="#">蓝莓</a>
 			 						<a href="#">口香糖</a>
 			 						<a href="#">棒棒糖</a>
@@ -526,8 +526,8 @@
 										<dd>
 											<a href="shopcar.html">香全城小磨香油礼盒装/250ml*4/瓶</a>
 											<p>原价：148.2</p>
-											<p class="youhui">现价：88.0</p>
-											<a href="#" class="gwc" title="加入购物车"></a>
+											<p class="youhui">现价：68.0</p>
+											<a href="gooddetail.html" class="gwc" title="加入购物车"></a>
 										</dd>
 									</dl>
 									<dl>
@@ -535,7 +535,7 @@
 										<dd>
 											<a href="#">香全城小磨香油礼盒装/250ml*4/瓶</a>
 											<p>原价：148.2</p>
-											<p class="youhui">现价：88.0</p>
+											<p class="youhui">现价：68.0</p>
 											<a href="#" class="gwc" title="加入购物车"></a>
 										</dd>
 									</dl>
@@ -1587,6 +1587,14 @@
 				//还原上一个li的样式
 				
 			}
+		$("#txt1").focusin(function(){
+				
+		$("#txt1").css({background:"#fff"})
+				});
+		$("#txt1").focusout(function(){
+		
+		$("#txt1").css({background:"#ccc"})
+		})
 
 	</script>
 	</body>

@@ -156,4 +156,26 @@
 	$(".floorbt .spanl").click(function(){
 		$(".floorbt ul").animate({left:"0"},500)
 	})
+	//点击回车跳转
+	$("#txt1").blur(function(){
+				$(this).val($(this).val().trim())
+			});
+			$("#btn1").click(function(){
+				location.href="../html/gooddetail.html"
+			})
+			$("#txt1").keyup(function(e){
+					if (e.keyCode==13) {
+						alert("欢迎光临")
+						$("#btn1").click();
+						//$("#btn").trigger("click");
+					}
+			})
+			if ($("#txt1").val()==香油) {
+				
+				
+			}
+			
+	//获取光标
+	
+
 });

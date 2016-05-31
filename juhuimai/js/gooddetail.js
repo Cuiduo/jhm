@@ -17,12 +17,29 @@
 			$(".shul").val(1)
 		}	
 	});
-	$(".jrgwc").click(function(){
-		var sum = $(".shul").val();
+	$(".ljgm").click(function(){
+		location.href = "shopcar.html";
 		
 	})
 	$(".jrgwc").click(function(){
-		location.href="shopcar.html"
+		var goodImg = $(".jqzoom").find("img").attr('src');
+		var goodName =  $(".goodsxq h4").text();
+		var goodPrice = $(".p2").text();
+		//判断购物车是否有商品
+		var carts = $.cookie('carts') ? $.cookie('carts') : "{}";
+		var goods = JSON.parse(carts);
+		if(goodImg in goods){
+			goods[goodImg].num += 1;
+		} else {
+			goods[goodImg] = {
+				img : goodImg,
+				name : goodName,
+				price : goodPrice,
+				num : 1
+			}
+		}
+		$.cookie("carts", JSON.stringify(goods), {expires:7,path:'/'});
+		
 	})
 	
 	
