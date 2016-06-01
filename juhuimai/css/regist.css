@@ -20,9 +20,9 @@ input, button {line-height: 25px;min-width: 130px;}
 input.error {border: 1px solid red;}
 
 #codetxt{width: 130px;height: 32px;margin: 10px 0;border: 1px solid #999;}
-#hqyzm{width: 100px;height: 32px;margin: 10px 0;cursor: pointer;background: red;color: #FFFFFF;}
-#codediv{width: 100px; height: 36px;padding: 5px 10px;border:1px #ccc solid;background: url(../images/login/21.png)no-repeat left center;			 font-weight: 700;font-size: 24px;}
+#hqyzm{width: 100px;height: 32px;margin: 10px 0;cursor: pointer;background: red;color: #FFFFFF;border-radius: 10px;}
+#codediv{width: 100px; height: 36px;padding: 5px 10px;border:1px #ccc solid;background: url(../images/login/21.png)no-repeat left center;border-radius: 10px;font-weight: 700;font-size: 24px;}
 #tips{font-size: 14px;color: red; }
-#yhxy{margin: 30px 0;}
-#check{width: 320px;height: 32px;background: red;margin-top: 10px;cursor: pointer;color: #FFFFFF;}
+#yhxy{margin: 30px 0;border-radius: 10px;}
+#check{width: 320px;height: 32px;background: red;margin-top: 10px;cursor: pointer;color: #FFFFFF;border-radius: 10px;}
 

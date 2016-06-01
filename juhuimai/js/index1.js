@@ -1,4 +1,5 @@
 ;$(function(){
+//城市二级菜单
 	$("#city").mouseover(function(){
 		$("#cityBox").css("display","block").mouseover(function(){
 			$("#cityBox").css("display","block")
@@ -10,7 +11,7 @@
 	$("#city").mouseout(function(){
 		$("#cityBox").css("display","none")
 	});
-	//top二级菜单导航
+//top二级菜单导航
 	mouse("xinxi","information");
 	mouse("shoucang","shoucang1");
 	mouse("phone","phonea");
@@ -32,7 +33,7 @@
 			$("#"+target2).css("display","none")
 		})
 	};
-	//banner二级菜单导航
+//banner二级菜单导航
 	$(".allgoodsa").mouseover(function(){
 		$(this).css("background","#E31939");
 		$(".feiji").css("background","url(../images/banner/icohover.png) no-repeat");
@@ -95,7 +96,7 @@
 	});
 
 
-	//beer  js效果
+//beer  js效果
 	
 	var uli=$("#titlebox ul li")
 	var ulogo=$(".logobox")
@@ -107,19 +108,20 @@
 		ulogo.eq(index).addClass("show");
 		uli.eq(index).css("border-bottom", "2px solid #dd102e").siblings().css("border-bottom", "2px solid #fff")
 	});
-	$(".beerfix li").mouseover(function(){
-		$(this).animate({"left":-50},300,function(){
-			$(this).animate({"left":0},300)
-		})
+	$(".beerfix li img").mouseover(function(){
+		$(this).stop().animate({"left":-100},500)
 	})
-	//HOISTRY
-	$("#tabc ul li").mouseover(function(){
-		$(this).animate({"top":"-10px"},300,function(){
-			$(this).animate({"top":"0"},300)
+	$(".beerfix li img").mouseout(function(){
+		$(this).stop().animate({"left":0},500)
+	})
+//HOISTRY
+	$("#tabc ul li img").mouseover(function(){
+		$(this).animate({"top":5},300,function(){
+			$(this).animate({"top":15},300)
 		})
 	})
 	
-	//楼梯效果js
+//楼梯效果js
 	var isclick = false;
 	$("#loutiNav ul li:not(:last)").click(function() {
 		isclick = true;
@@ -156,14 +158,14 @@
 	$(".floorbt .spanl").click(function(){
 		$(".floorbt ul").animate({left:"0"},500)
 	})
-	//点击回车跳转
+//点击回车跳转
 	$("#txt1").blur(function(){
 				$(this).val($(this).val().trim())
 			});
 			$("#btn1").click(function(){
 				location.href="../html/gooddetail.html"
 			})
-			$("#txt1").keyup(function(e){
+			$("#txt1").keydown(function(e){
 					if (e.keyCode==13) {
 						alert("欢迎光临")
 						$("#btn1").click();
@@ -172,7 +174,20 @@
 			})
 			
 			
-	//获取光标
-	
+	//登入
+	 var names1 = $.cookie('names1') ? $.cookie('names1') : "{}";
+	 var nm1=JSON.parse(names1);
+	 for(i in nm1){
+//	 	$(nm[i].name).appendTo($("#dengru"));
+//	 	$(nm[i].name).appendTo($("#zhuce"))
+		$("#dengru").html(nm1[i].name);
+		$("#zhuce").html("退出");
+		$("#zhuce").click(function(){
+	 	$.cookie("names1", "", {expires: -1, path: '/'});
+	 	location.href="index.html";
+	 })
+	 }
+	 
+	 
 
 });

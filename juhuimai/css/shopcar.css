@@ -13,5 +13,5 @@
 .flowBox .goshop{width: 960px;height: 60px;background: #fff;line-height: 50px;padding: 0 20px;}
 .flowBox .goshop input{padding: 0 80px;}
 .flowBox .goshop .jxshpo{width: 50px;height: 30px;background: red;color: #fff;}
-.flowBox .goshop .gopay{width: 50px;height: 30px;background: #FFA500;color: #fff;}
-.flowBox .goshop span{padding-right:20px ;color: red;font-size: 16px;}
+.flowBox .goshop .gopay{width: 50px;height: 30px;background: #FFA500;color: #fff;border-radius: 10px;}
+.flowBox .goshop span{padding-right:20px ;color: red;font-size: 16px;border-radius: 10px;}

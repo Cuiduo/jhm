@@ -53,22 +53,10 @@
 				$(".goodRt ul").css({position:"static"});
 			}
 		})
-//	var index=0;
-//		show();
-//		function show(){
-//			$(".gunDong ul li").eq(index)
-//		}
-//		setInterval("change()",1000);
-//		
-//		function change(){
-//			index++;
-//			var top=150;
-//			if (index==$(".gunDong ul li").size()) {
-//				index=0;
-//			}
-//			$(".gunDong ul li").eq(index).animate({"top":-top},500);
-//		}
-//		$(".gotop").click(function(){
-//			$("html, body").animate({scrollTop: 0}, 1000);
-//		})
+	//购物车飞进
+	$(".jrgwc").click(function(){
+		$("#msg").show().animate({width: '250px'}, 200).fadeOut(1000);
+	})
+	
+	
 //});

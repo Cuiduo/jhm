@@ -14,7 +14,7 @@
 #topl #cityBox a{color: #000}
 #topl #cityBox .cityh{font-weight: bold;border-bottom: 2px solid #cca;padding: 5px;}
 #topl #welcome{padding-left: 30px;color:#999999;}
-#topl #dengru{padding: 0 5px;}
+#topl #dengru{padding: 0 5px;width: 100px;}
 #topr{width: 600px;float: right;}
 #topr #xinxi{position: relative;}
 #topr ul li #information{display:none;position: absolute;top:32px;left:-1px;width: 100px;background: #fff;z-index: 12;text-align: center;height: 70px;}
@@ -26,7 +26,7 @@
 #topr #shangjia #shangjiaa h5{padding-left: 15px;}
 #topr #shangjia #shangjiaa{display:none;position: absolute;top:32px;left:-60px;width: 140px;background: #fff;z-index: 15;height: 120px;border-bottom: 1px dashed #000;padding-bottom: 10px;}
 #tor #daohang{position: relative;}
-#topr #daohang #daohanga{display:none;position: absolute;top:32px;right: 150px;width: 1150px;background: #fff;z-index: 15;height: 120px;border-bottom: 1px dashed #000;padding-bottom: 10px;border: 1px solid #CCCCAA;}
+#topr #daohang #daohanga{display:none;position: absolute;top:32px;right: 35px;width: 1200px;background: #fff;z-index: 15;height: 120px;border-bottom: 1px dashed #000;padding-bottom: 10px;border: 1px solid #CCCCAA;}
 #topr #daohang #daohanga .p1 a{padding:5px 5px ;}
 #topr #daohang #daohanga .p1{float: left;padding-right: 50px;padding-left: 10px;}
 #topr #guanzhu a{color: #f00;}

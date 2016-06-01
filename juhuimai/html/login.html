@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="../css/common/base.css" />
 	<link rel="stylesheet" href="../css/common/common.css"/>
 	<link rel="stylesheet" href="../css/login.css" />
-	
+	<link rel="stylesheet" href="../css/regist.css" />
 	<body>
     <!--top-->
 		<div id="topBig"></div>
@@ -29,23 +29,33 @@
 					</ul>
 					<ol id="infor">
 						
-						<li><label for="username">用户：</label></li>
 						<li>
 							
-							<input type="text" name="sjh" id="sjh" placeholder="用户名/手机/邮箱" />
+							<li>
+					    	<form id="demoForm">	
+					    	<span id="info"></span>
+					        <span id="info2" style="display: none">输入错误</span>
+					        <p>
+					            <label for="username">用户：</label>
+					            <input type="text" id="username" name="username" placeholder="手机号"/>
+					        </p>
+					
+					        <p>
+					            <label for="username">密码：</label>
+					            <input type="password" id="password" name="password" placeholder="密码"/>
+					        </p>				
+					       
+					        </form>
+					    </li>
 						</li>
-						<li><label for="password">密码：</label></li>
-						<li>
-						    
-	            			<input type="password" id="password" name="password"/>
-						</li>
-						<li>	
-							<input type="submit" name="ljzc" id="ljzc" value="登陆" />
-						</li>
+						
 						
 						<li>
 							<input type="checkbox" name="" id="yhxy" checked="checked"/>我已看过并接受《用户协议》
 						</li>	
+						<li>	
+							<input type="submit" name="ljzc" id="ljzc" value="登陆" />
+						</li>
 							
 							
 						
@@ -61,7 +71,7 @@
 	<script src="../js/common.js"></script>
 	<script src="../js/index1.js"></script>
 	<script src="../js/login.js"></script>
-	
+	<script src="../libs/jquery.cookie.js"></script>
 	<script type="text/javascript">
 		load("common/header.html","topBig");
 		load("common/footer.html","contefooter");

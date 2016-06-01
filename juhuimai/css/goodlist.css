@@ -27,6 +27,7 @@
 .floorbt:hover .spanr{display:block;position: absolute;right: 0;background: rgba(255, 200, 255, 0.8);top:20%}
 
 
+#msg{position:fixed; top:380px; left:330px; z-index:100; width:1px; height:52px; line-height:52px; font-size:20px; text-align:center; color:#fff; background:#360;display: none;}
 
 
 

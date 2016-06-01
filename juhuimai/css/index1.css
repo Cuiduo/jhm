@@ -86,8 +86,9 @@
 .hide{display: none;}
 .show{display: block;}
 #main .logobox{width:1180px;height: 290px;border: 1px solid #CCCCCC;padding:20px 0 0 20px;overflow: hidden;}
-
+#main .logobox ul li img{position: absolute;left:0}
 #main .logobox ul li{width: 180px;height:80px;float: left;position: relative;left:0;   margin: 0 15px 15px 0;overflow: hidden;}
+
 /*----------------------------------热门店铺-----------------------------------------------*/
 #hotStores{width: 100%;height: 360px;}
 #hotStores #hot{width: 1210px;height: 360px;margin: 0 auto;}
@@ -95,16 +96,18 @@
 #hotStores #hot .hotmore a{float: right;line-height: 30px;background: url(../images/index/jt.png) no-repeat right;padding-right: 10px;}
 #hotStores #hot #tabl{float: left;}
 #hotStores #hot #tabc{float: left;width: 780px;height: 326px}
-#hotStores #hot #tabc ul li{float: left;width: 122px;height: 86px;border:1px solid #ccc;text-align: center;padding-top: 20px;position: relative;}
+#hotStores #hot #tabc ul li{float: left;width: 122px;height: 86px;border:1px solid #ccc;position: relative;}
+#hotStores #hot #tabc ul li img{position: absolute;top: 20px;left: 20px;}
 #hotStores #hot #tabr{float: right;}
 /*-------------------fkqk-big-------------------------------------------*/
 #fkqgBig{width: 100%;height: 350px;}
 #fkqgBig #fkqg{width: 1210px;height: 350px;margin: 0 auto;}
-#fkqgBig #fkqg #fkqgul{width: 1210px;height: 48px;}
+#fkqgBig #fkqg #fkqgul{width: 1210px;height: 48px;overflow: hidden;}
 #fkqgBig #fkqg #fkqgul ul li{float: left;line-height: 42px;width: 200px;text-align: center;}
 #fkqgBig #fkqg #fkqgul ul li:hover{border-bottom: 2px solid #dd102e;}
 #fkqgBig #fkqg #fkqgul ul li a{font-size: 20px;}
 #fkqgBig #fkqg #fkqgdl dl{border:1px solid #ccc;width: 198px;height: 280px;padding-top: 10px;float: left;}
+#fkqgBig #fkqg #fkqgdl dl:hover{border:1px solid orangered;}
 #fkqgBig #fkqg #fkqgdl dl dt{text-align:center;}
 #fkqgBig #fkqg #fkqgdl dl dt img{width: 180px;height: 180px;}
 #fkqgBig #fkqg #fkqgdl dl dd{width: 180px;line-height: 30px;color: #000;padding: 0 10px;}
@@ -113,7 +116,7 @@
 #lou{width: 100%;}
 #lou #main{width: 1210px;height:5680px;margin: 0 auto;}
 #lou #main .louti{width: 1210px;height: 710px;}
-#loutiNav{position: fixed;top: 35%;left: 40px;width: 40px;display: none;}
+#loutiNav{position: fixed;top: 35%;left: 40px;width: 40px;display: none;z-index: 1000;background: #F2F2F2;}
 #loutiNav ul li{position: relative;width: 40px;height: 30px;text-align: center;line-height: 30px;font-size: 12px;list-style: none;cursor: pointer;border-bottom: 1px dotted #AAAAAA;}
 #loutiNav ul li.last{color: #fff;background: darkred;border-bottom: none;}
 #loutiNav ul li span{display: none;width: 40px;height: 30px;position: absolute;top: 0;left: 0;color: red;}
@@ -142,11 +145,11 @@
 #lou #main .louti .floor .floortab .goods .good .gwc{width:30px;height:30px;position: absolute;bottom: 0;right: 10px;background:url(../images/index/gouwuche.png)  no-repeat;}
 #lou #main .louti .floor .floorr{padding-top: 38px;}
 #lou #main .louti .floor .floorr img{padding:7px 0}
-#lou #main .louti .floorbt{width: 1210px;height: 80px;margin: 0 auto;background: #AAAAAA;overflow: hidden;position: relative;}
+#lou #main .louti .floorbt{width: 1210px;height: 80px;margin: 0 auto;background: #AAAAAA;overflow: hidden;position: relative;border-radius: 10px;}
 
 #lou #main .louti .floorbt ul{width: 20000px;position: absolute;}
 #lou #main .louti .floorbt ul li{float: left;padding: 17px 10px ;}
 #lou #main .louti .floorbt .spanl,.spanr{display: none;}
-#lou #main .louti .floorbt:hover .spanl{display:block;position: absolute;left: 0;background: rgba(255, 200, 255, 0.8);top:20%}
-#lou #main .louti .floorbt:hover .spanr{display:block;position: absolute;right: 0;background: rgba(255, 200, 255, 0.8);top:20%}
+#lou #main .louti .floorbt:hover .spanl{display:block;position: absolute;left: 0;background: rgba(255, 200, 255, 0.8);top:20%;border-radius: 10px;}
+#lou #main .louti .floorbt:hover .spanr{display:block;position: absolute;right: 0;background: rgba(255, 200, 255, 0.8);top:20%;border-radius: 10px;}
 

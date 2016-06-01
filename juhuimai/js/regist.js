@@ -1,5 +1,5 @@
 ;$(function(){
-	
+	//用户名注册
 	    var validator;
     
         $.validator.setDefaults({
@@ -50,10 +50,20 @@
         }, $.validator.format("请填写正确的{0}位手机号~")); //取到规则里写的值
 		$("#check").on("click",verify);
         $("#check").click(function () {
-            alert($("#demoForm").valid() ? "恭喜您注册成功,点击确定并登录" : "填写错误");
-            //location.href="index.html"
-            $("#dengru").html("欢迎：");
-             $("#zhuce").html($("#username").val());
+           alert($("#demoForm").valid() ? "恭喜您注册成功,点击确定并登录" : "填写错误");
+            
+//          $("#dengru").html("欢迎：");
+//          $("#zhuce").html($("#username").val());
+            var usernames=$("#username").val();
+            var paswords=$("#password").val();
+            var names = $.cookie('names') ? $.cookie('names') : "{}";
+            var nm=JSON.parse(names);
+            nm[usernames]={
+            	name:usernames,
+            	pasword:paswords
+            }
+            $.cookie("names",JSON.stringify(nm),{expires:7,path:'/'});
+            location.href="login.html"
         });
     
 	
@@ -63,7 +73,7 @@
 	
 	
 	
-	
+	//验证码
 	putCodeToDiv();
 	$("hqyzm").on("click",putCodeToDiv);
 	$("#check").on("click",verify);
