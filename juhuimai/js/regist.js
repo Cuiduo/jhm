@@ -50,7 +50,8 @@
         }, $.validator.format("请填写正确的{0}位手机号~")); //取到规则里写的值
 		$("#check").on("click",verify);
         $("#check").click(function () {
-           alert($("#demoForm").valid() ? "恭喜您注册成功,点击确定并登录" : "填写错误");
+         if($("#yhxy")[0].checked){
+    		alert($("#demoForm").valid() ? "恭喜您注册成功,点击确定并登录" : "填写错误");
             
 //          $("#dengru").html("欢迎：");
 //          $("#zhuce").html($("#username").val());
@@ -64,8 +65,11 @@
             }
             $.cookie("names",JSON.stringify(nm),{expires:7,path:'/'});
             location.href="login.html"
+    	}else{
+    		alert("请阅读用户协议")
+    	}
         });
-    
+    	
 	
 	
 	

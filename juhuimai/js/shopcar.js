@@ -50,8 +50,9 @@
 					).appendTo($(".goodsp"))
 			}
 			$(".delate").click(function() {
+				alert("亲，确定不要我了吗")
 				$.cookie("carts", "", {expires: -1, path: '/'});
-				
+				$(".qk").hide()
 				$(".aaa").html(0);
 				$(".goodsp1").html("亲，购物车还没有商品，快去淘吧").css("color","red").css("text-align","center").css("fontSize",'16px').css("fontWeight","600")
 			});

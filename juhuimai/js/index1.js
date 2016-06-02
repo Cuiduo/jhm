@@ -96,7 +96,7 @@
 	});
 
 
-//beer  js效果
+//beer  选项卡效果
 	
 	var uli=$("#titlebox ul li")
 	var ulogo=$(".logobox")
@@ -159,19 +159,17 @@
 		$(".floorbt ul").animate({left:"0"},500)
 	})
 //点击回车跳转
-	$("#txt1").blur(function(){
-				$(this).val($(this).val().trim())
-			});
-			$("#btn1").click(function(){
-				location.href="../html/gooddetail.html"
-			})
-			$("#txt1").keydown(function(e){
-					if (e.keyCode==13) {
-						alert("欢迎光临")
-						$("#btn1").click();
-						//$("#btn").trigger("click");
-					}
-			})
+	
+	$("#btn1").click(function(){
+		location.href="../html/gooddetail.html"
+	})
+	$("#txt1").keydown(function(e){
+			if (e.keyCode==13) {
+				alert("欢迎光临")
+				$("#btn1").click();
+				//$("#btn").trigger("click");
+			}
+	})
 			
 			
 	//登入
@@ -183,8 +181,10 @@
 		$("#dengru").html(nm1[i].name);
 		$("#zhuce").html("退出");
 		$("#zhuce").click(function(){
+			alert("亲，你确定要退出吗？")
+		
 	 	$.cookie("names1", "", {expires: -1, path: '/'});
-	 	location.href="index.html";
+	 	location.href();
 	 })
 	 }
 	 

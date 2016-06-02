@@ -43,13 +43,13 @@
 				var height = $(window).scrollTop()+800;
 				$("#main .louti").each(function() {
 					if(height >= ($(this).offset().top + $(this).outerHeight())) {
-						$("#loutiNav").css("display","block")
+						$("#loutiNav").fadeIn(500)
 						var li = $("#loutiNav ul li").eq($(this).index());
 						li.find("span").addClass("active");
 						li.siblings().find("span").removeClass("active");
 					}
-					if (height<($("#main").offset().top)/2) {
-						$("#loutiNav").css("display","none")
+					if (height<($(".louti").eq(1).offset().top)) {
+						$("#loutiNav").fadeOut(500)
 						$("#low ul li").eq(0).find("span").removeClass("active")
 					}
 				})
