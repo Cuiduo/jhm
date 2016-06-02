@@ -41,6 +41,28 @@
 		$.cookie("carts", JSON.stringify(goods), {expires:7,path:'/'});
 		
 	})
+	//fly效果
+	var offset = $(".baobei").offset(); 
+	$(".addcar").click(function(event){   //是$(".addcar")这个元素点击促发的 开始动画的位置就是这个元素的位置为起点
+		var addcar = $(this);
+		var img = addcar.parent().parent().find('img').attr('src');
+		var flyer = $('<img class="u-flyer" src="'+img+'">');
+		flyer.fly({
+			start: {
+				left: event.pageX-700,
+				top: event.pageY-330
+			},
+			end: {
+				left: offset.left+500,
+				top: offset.top-30,
+				width: 0,
+				height: 0
+			},
+			onEnd: function(){
+				$("#msg").show().animate({width: '250px'}, 200).fadeOut(1000);
+			}
+		});
+	});
 	
 	
 	//吸顶菜单效果

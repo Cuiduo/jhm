@@ -15,7 +15,8 @@
 						
 						'<span>'+
 							'<input class="jian" type="button"  value="-" />'+
-							'<input class="shul" type="text"  value="1" style="text-align: center;"/>'+
+							'<input class="shul" type="text"  value="'+
+							'" style="text-align: center;"/>'+
 							'<input class="jia" type="button"  value="+" />'+
 						'</span>'+
 						'<span class="money">'+
@@ -35,23 +36,26 @@
 						
 						'<span>'+
 							'<input class="jian" type="button"  value="-" />'+
-							'<input class="shul" type="text"  value="1" style="text-align: center;"/>'+
+							'<input class="shul" type="text"  value="'+goods[i].num+'" style="text-align: center;"/>'+
 							'<input class="jia" type="button"  value="+" />'+
 						'</span>'+
 						'<span class="money">'+68+
 						'</span>'+
-						'<span class="allpay">'+goods[i].price+
+						'<span class="allpay">'+goods[i].price*goods[i].num+
 						'</span>'+
 						'<span>'+
 							'<input type="button" value="删除" class="delate"/>'+
 						'</span>'+
-					'</div>').appendTo($(".goodsp"))
+					'</div>'
+					).appendTo($(".goodsp"))
 			}
 			$(".delate").click(function() {
 				$.cookie("carts", "", {expires: -1, path: '/'});
-				$(".goodsp1").hide();
-				$(".aaa").html(0)
+				
+				$(".aaa").html(0);
+				$(".goodsp1").html("亲，购物车还没有商品，快去淘吧").css("color","red").css("text-align","center").css("fontSize",'16px').css("fontWeight","600")
 			});
+			$(".aaa").html(goods[i].num*goods[i].price)
 //			$()
 			//$("<div>品名：<span><img style='margin-left: 100px;' src="+goods[i].img+"/><span>,价格："+goods[i].price + "</span>" + "<span>,数量:"+goods[i].num+"</span></div>").appendTo($('.goodsp'));
 //			}	

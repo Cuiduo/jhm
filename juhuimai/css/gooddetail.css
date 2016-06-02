@@ -12,6 +12,7 @@
 .goodDet .goodsfdj .goodsxq .sl .jian,.jia{width: 20px;height: 20px;background: #ccc;border: 1px solid #000000;}
 .goodDet .goodsfdj .goodsxq .ljgm{width: 180px;height: 40px;background: red;color: #fff;border-radius: 10px;}
 .goodDet .goodsfdj .goodsxq .jrgwc{width: 180px;height: 40px;background: #FF6600;color: #fff;border-radius: 10px;}
+.goodDet .ljgm,.jrgwc:hover{cursor: pointer;}
 #msg{position:fixed; top:450px; right:520px; z-index:100; width:1px; height:52px; line-height:52px; font-size:20px; text-align:center; color:#fff; background:#360;display: none;}
 .goodDet .goodpics{width: 1210px;height: 3000px;margin: 0 auto;}
 .goodDet .goodpics .goodLeft{width: 210px;height: 550px;border: 1px solid #ccc;float: left;text-align: center;overflow: hidden;}
